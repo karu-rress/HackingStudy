@@ -12,7 +12,7 @@ long long refine(char* buf)
 
   buf_ptr = buf;
   v5 = 0LL;
-  v3 = strlen(buf);
+  v3 = strlen(buf); 
   for ( i = 0; i < v3; ++i )
   {
     if ( *buf_ptr <= 47 || *buf_ptr > 57 )
